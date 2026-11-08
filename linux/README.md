@@ -51,8 +51,8 @@ Check the installation:
 ### 3. Get the code
 
 ```bash
-git clone https://github.com/pusndoju/rl-book-simulations.git
-cd rl-book-simulations/linux
+git clone https://github.com/pusndoju/control-learning-lab.git
+cd control-learning-lab/linux
 ```
 
 If you use a VMware shared folder, open that folder instead of cloning.
