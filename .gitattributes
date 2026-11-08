@@ -1,7 +1,31 @@
-# Code runs on Linux (VM): always LF, even when checked out on Windows
+# Mặc định: text, Git tự chuẩn hóa xuống dòng
 * text=auto
+
+# Code chạy trên Linux (VM): luôn LF, kể cả khi checkout trên Windows
 *.py    text eol=lf
 *.sh    text eol=lf
+*.toml  text eol=lf
 *.json  text eol=lf
 *.md    text eol=lf
+uv.lock text eol=lf
+
+# Script Windows: CRLF
+*.cmd   text eol=crlf
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+
+# MATLAB/Simulink (khuyến nghị của MathWorks)
+*.m     text diff
+*.prj   text
+*.xml   text
+*.slx   binary
+*.mdl   binary
+*.mat   binary
+*.mlx   binary
+*.mlapp binary
+*.fig   binary
+*.p     binary
+*.sldd  binary
+*.onnx  binary
 *.png   binary
+*.mp4   binary
