@@ -1,0 +1,15 @@
+{
+  // F5 runs the Python file currently open in the editor, from its own folder
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run current file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

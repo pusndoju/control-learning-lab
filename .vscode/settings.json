@@ -1,0 +1,9 @@
+{
+  // Python environment used for every file under linux/
+  "python.defaultInterpreterPath": "/home/tinbien/.venvs/lab/bin/python",
+  "python.terminal.activateEnvironment": true,
+  // Hide Python cache folders in the Explorer
+  "files.exclude": {"**/__pycache__": true},
+  // Files on the Windows shared folder always look executable -> ignore Ruff's shebang rule
+  "ruff.lint.ignore": ["EXE002"]
+}
